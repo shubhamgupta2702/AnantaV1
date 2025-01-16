@@ -1,3 +1,4 @@
+
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
@@ -6,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { BsGithub } from 'react-icons/bs'
 import { FaGithub, FaInbox, FaInstagram, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
 import { FaSquareXTwitter, FaThreads } from 'react-icons/fa6'
+
 
 import Button from "./Button";
 
@@ -41,7 +43,7 @@ const Hero = () => {
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
-            <h1 className=" uppercase font-serif font-black text-8xl  text-white">
+            <h1 className="ananta-heading uppercase font-black text-8xl  text-white">
               Ananta<b></b> <br />Tech Fest
             </h1>
 

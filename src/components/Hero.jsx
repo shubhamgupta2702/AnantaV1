@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/all";
 import { TiLocationArrow } from "react-icons/ti";
 import { useEffect, useRef, useState } from "react";
 import { BsGithub } from 'react-icons/bs'
-import { FaGithub, FaInbox, FaInstagram, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
+import { FaDiscord, FaGithub, FaInbox, FaInstagram, FaInstagramSquare, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import { FaSquareXTwitter, FaThreads } from 'react-icons/fa6'
 
 
@@ -66,13 +66,13 @@ const Hero = () => {
         target='_blank'
         rel='noopener noreferrer'
         aria-label='LinkedIn'
-        > <FaLinkedin/>
+        > <FaDiscord/>
            </a>
            <a href="/"
         target='_blank'
         rel='noopener noreferrer'
         aria-label='LinkedIn'
-        > <FaGithub/>
+        > <FaYoutube/>
            </a>
            <a href="/"
         target='_blank'

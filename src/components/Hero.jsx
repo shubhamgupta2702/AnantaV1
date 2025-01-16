@@ -41,12 +41,12 @@ const Hero = () => {
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-blue-100">
-              Anan<b>t</b>a <br />Tech Fest
+            <h1 className=" uppercase font-serif font-black text-8xl  text-white">
+              Ananta<b></b> <br />Tech Fest
             </h1>
 
-            <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              <br />
+            <p className="mb-5 max-w-80 font-robert-regular text-blue-100">
+            Ananta fest is a science and technology festival held annually at the Hemvati Nandan Bahuguna Garhwal University<br />
             </p>
 
             <Button

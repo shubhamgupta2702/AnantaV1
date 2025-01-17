@@ -78,7 +78,7 @@ const Hero = () => {
     <TextParallaxContentExample />
     {/* <SmoothScrollHero/> */}
     {/* <HorizontalCards /> */}
-    <CardSwiper />
+    {/* <CardSwiper /> */}
     <Gallery/>
     
     {/* <Example /> */}

@@ -30,8 +30,8 @@ function CardSwiper() {
       
       <SwiperSlide>
         
-        <div className='h-96 flex group-hover:scale-150 inset-0 z-0 transition-transform duration-300 '>
-          <div className={`card card-active animated_card hover:h-[395px]  cursor-pointer overflow-hidden rounded-[16px] group  `}>
+        <div className='h-96  flex group-hover:scale-150  '>
+          <div className={`card card-active  border-violet-600 animated_card hover:h-[395px]  cursor-pointer overflow-hidden rounded-[16px] group  `}>
           
           <img 
           className=''

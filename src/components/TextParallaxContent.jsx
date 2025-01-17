@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
+import Cardcolor from "./Cardcolor";
 
 
 export const TextParallaxContentExample = () => {
@@ -99,23 +100,10 @@ const OverlayCopy = ({ subheading, heading }) => {
 };
 
 const ExampleContent = () => (
-  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
-    <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+  // <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+  //   <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
       
-    </h2>
-    <div className="col-span-1 md:col-span-8">
-      <p className="mb-4 text-xl text-white md:text-2xl">
-      Welcome to Ananta 2025, the annual technical fest hosted by Hemvati Nandan Bahuguna Garhwal University, where innovation meets creativity, and technology knows no bounds! Get ready for a thrilling journey through the world of science, engineering, and cutting-edge technology. 
-      </p>
-      <p className="mb-8 text-xl text-white md:text-2xl">
-      Whether you're a tech enthusiast, a problem solver, or a visionary,Ananta 2025 offers a platform for everyone to showcase their skills, learn, and grow.
-      </p>
-      <button className="text-red hover:before:bg-redborder-red-500 relative h-[50px] w-40 overflow-hidden border border-violet-950 bg-white px-3 text-black shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-violet-500 before:transition-all before:duration-500 hover:text-white hover:shadow-violet-500 hover:before:left-0 hover:before:w-full">
-        <span className="relative z-10">
-          <a href="">
-        Explore <FiArrowUpRight className="inline" /></a>
-        </span>
-      </button>
-    </div>
-  </div>
+  //   </h2>
+    <Cardcolor />
+  // </div>
 );

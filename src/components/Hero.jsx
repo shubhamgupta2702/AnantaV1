@@ -17,6 +17,10 @@ import Example from "./TildCard.jsx";
 import { SmoothScrollHero } from "./SmoothScroll.jsx";
 import { TextParallaxContentExample } from "./TextParallaxContent.jsx";
 import HorizontalCards from "./HorizontalScrollCard.jsx";
+import CardSwiper from "./CardSwiper.jsx";
+import Cardcolor from "./Cardcolor.jsx";
+import Gallery from "./Gallery.jsx";
+
 
 const Hero = () => {
   
@@ -73,7 +77,10 @@ const Hero = () => {
     {/* <Technologies/> */}
     <TextParallaxContentExample />
     {/* <SmoothScrollHero/> */}
-    <HorizontalCards />
+    {/* <HorizontalCards /> */}
+    <CardSwiper />
+    <Gallery/>
+    
     {/* <Example /> */}
     
     </>

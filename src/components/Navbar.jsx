@@ -4,11 +4,18 @@ import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 
-import Button from "./Button.jsx";
+// import Button from "./Button.jsx";
+import { Menu, X } from "lucide-react";
 
-const navItems = ["About", "Events", "Register", "Sponsors", "Contact"];
+// const navItems = ["About", "Events", "Register", "Sponsors", "Contact"];
 
 const NavBar = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  }
   
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
@@ -65,7 +72,7 @@ const NavBar = () => {
   return (
     <div
       ref={navContainerRef}
-      className="fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6"
+      className="fixed inset-x-0 top-4 z-50 h-16 border-none transition-all duration-700 sm:inset-x-6 "
     >
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4 pl-0 ">
@@ -77,8 +84,8 @@ const NavBar = () => {
           </div>
 
           
-          <div className="flex h-full items-center">
-            <div className="hidden md:block">
+          <div className="flex flex-wrap h-full items-center">
+            <div className=" md:flex">
               
                 <a
                   
@@ -140,8 +147,11 @@ const NavBar = () => {
                 />
               ))}
             </button>
+            
+            
           </div>
         </nav>
+
       </header>
     </div>
   );

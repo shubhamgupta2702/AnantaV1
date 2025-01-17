@@ -8,22 +8,23 @@ function Social() {
     <>
       <div className=" flex flex-row gap-6 text-3xl z-50 fixed bottom-5 right-5 text-white cursor-pointer">
       <a href="/"
+      className='hover:text-purple-500'
         > 
         <FaDiscord/>
            </a>
            <a href="/"
-        
+        className='hover:text-red-600'
         > <FaYoutube/>
            </a>
            <a href="https://ananta2025.netlify.app/"
-        
+        className='hover:text-slate-500'
         > <FaSquareXTwitter/>
            </a>
            <a 
            href="https://ananta2025.netlify.app/"
         
-        className=''
-        > <FaInstagram className="cursor-pointer"/>
+        className='hover:text-purple-900'
+        > <FaInstagram/>
            </a>
            
       </div>

@@ -1,20 +1,28 @@
 
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/all";
+
+
+
 import { TiLocationArrow } from "react-icons/ti";
 import { useEffect, useRef, useState } from "react";
-import { BsGithub } from 'react-icons/bs'
-import { FaDiscord, FaGithub, FaInbox, FaInstagram, FaInstagramSquare, FaLinkedin, FaYoutube } from 'react-icons/fa'
-import { FaSquareXTwitter, FaThreads } from 'react-icons/fa6'
+import { BsGithub, BsTwitterX } from 'react-icons/bs'
+import { FaAirbnb, FaDiscord, FaGithub, FaInbox, FaInstagram, FaInstagramSquare, FaLinkedin, FaTwitter, FaTwitterSquare, FaYoutube } from 'react-icons/fa'
+import { FaSquareXTwitter, FaThreads, FaX } from 'react-icons/fa6'
 
 
-import Button from "./Button";
+import Button from "./Button.jsx";
+import Social from "./Social.jsx";
+import Technologies from "./Technologies.jsx";
+import Contact from "./Contact.jsx";
+import Example from "./TildCard.jsx";
+import { SmoothScrollHero } from "./SmoothScroll.jsx";
+import { TextParallaxContentExample } from "./TextParallaxContent.jsx";
+import HorizontalCards from "./HorizontalScrollCard.jsx";
 
 const Hero = () => {
   
 
   return (
+    <>
     <div className="relative h-dvh w-screen overflow-x-hidden">
        
         
@@ -32,7 +40,7 @@ const Hero = () => {
             autoPlay
             loop
             muted
-            className="absolute left-0 top-0 size-full object-cover object-center"
+            className="absolute left-0 top-0 size-full object-fill object-center"
             
           />
         </div>
@@ -44,7 +52,7 @@ const Hero = () => {
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="ananta-heading uppercase font-black text-8xl  text-white">
-              Ananta<b></b> <br />Tech Fest
+              Ananta <br /> Fest 2025
             </h1>
 
             <p className="mb-5 max-w-80 font-robert-regular text-blue-100">
@@ -52,43 +60,25 @@ const Hero = () => {
             </p>
 
             <Button
-              id="watch-trailer"
+              id="join"
               title="Join Us"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />
           </div>
         </div>
-      
-
-      <div className="flex flex-row gap-6 text-3xl absolute bottom-5 right-5 text-white">
-      <a href="/"
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='LinkedIn'
-        > <FaDiscord/>
-           </a>
-           <a href="/"
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='LinkedIn'
-        > <FaYoutube/>
-           </a>
-           <a href="/"
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='LinkedIn'
-        > <FaSquareXTwitter/>
-           </a>
-           <a href="/"
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='LinkedIn'
-        className='mr-7'
-        > <FaInstagram/>
-           </a>
-      </div>
+        
     </div>
+    <Social/>
+    {/* <Technologies/> */}
+    <TextParallaxContentExample />
+    {/* <SmoothScrollHero/> */}
+    <HorizontalCards />
+    {/* <Example /> */}
+    
+    </>
+
+    
   );
 };
 

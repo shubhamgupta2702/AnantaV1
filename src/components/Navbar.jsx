@@ -4,9 +4,9 @@ import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 
-import Button from "./Button";
+import Button from "./Button.jsx";
 
-const navItems = ["About", "Competitions", "Events", "Sponsors", "Contact"];
+const navItems = ["About", "Events", "Register", "Sponsors", "Contact"];
 
 const NavBar = () => {
   
@@ -79,15 +79,43 @@ const NavBar = () => {
           
           <div className="flex h-full items-center">
             <div className="hidden md:block">
-              {navItems.map((item, index) => (
+              
                 <a
-                  key={index}
-                  href={`#${item.toLowerCase()}`}
+                  
+                  href="https://ananta2025.netlify.app/"
                   className="nav-hover-btn"
                 >
-                  {item}
+                  About
                 </a>
-              ))}
+                <a
+                  
+                  href="/"
+                  className="nav-hover-btn"
+                >
+                  Events
+                </a>
+                <a
+                  
+                  href="/"
+                  className="nav-hover-btn"
+                >
+                  Sponsors
+                </a>
+                <a
+                  
+                  href="/"
+                  className="nav-hover-btn"
+                >
+                  Register
+                </a>
+                <a
+                  
+                  href="/"
+                  className="nav-hover-btn"
+                >
+                  Contact
+                </a>
+              
             </div>
 
             <button

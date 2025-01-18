@@ -2,25 +2,30 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
 import Cardcolor from "./Cardcolor";
+import CardFlip from "./CardFlip";
+import CardFlip2 from "./CardFlip2";
 
 
 export const TextParallaxContentExample = () => {
   return (
-    <div className="bg-black pt-16">
+    <div className="bg-gradient-to-b from-indigo-900 to-gray-900 pt-0">
       
       <TextParallaxContent
         imgUrl="/img/anantafestlogo.png"
-        subheading="Ananta 2025"
-        heading="Word From Team"
+        subheading=""
+        heading="WELCOME TO ANANTA 2025"
+        
       >
         <ExampleContent />
+        <CardFlip />
+        <CardFlip2/>
       </TextParallaxContent>
       
     </div>
   );
 };
 
-const IMG_PADDING = 12;
+const IMG_PADDING = 0;
 
 const TextParallaxContent = ({ imgUrl, subheading, heading, children }) => {
   return (
@@ -60,7 +65,7 @@ const StickyImage = ({ imgUrl }) => {
         scale,
       }}
       ref={targetRef}
-      className="sticky z-0 overflow-hidden rounded-3xl"
+      className="sticky z-0 overflow-hidden rounded-none"
     >
       <motion.div
         className="absolute inset-0 bg-neutral-950/70"

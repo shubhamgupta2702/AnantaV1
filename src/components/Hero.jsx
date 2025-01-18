@@ -20,6 +20,7 @@ import HorizontalCards from "./HorizontalScrollCard.jsx";
 import CardSwiper from "./CardSwiper.jsx";
 import Cardcolor from "./Cardcolor.jsx";
 import Gallery from "./Gallery.jsx";
+import CardFlip from "./CardFlip.jsx";
 
 
 const Hero = () => {
@@ -53,13 +54,13 @@ const Hero = () => {
           
         </h1>
 
-        <div className="absolute left-0 top-0 z-40 size-full">
+        <div className="absolute left-0 top-0 z-40 size-full sm:px-10">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="ananta-heading uppercase font-black text-8xl  text-white">
               Ananta <br /> Fest 2025
             </h1>
 
-            <p className="mb-5 max-w-80 font-robert-regular text-blue-100">
+            <p className="mb-12 max-w-80 font-robert-regular text-blue-100">
             Ananta fest is a science and technology festival held annually at the Hemvati Nandan Bahuguna Garhwal University<br />
             </p>
 
@@ -67,7 +68,8 @@ const Hero = () => {
               id="join"
               title="Join Us"
               leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
+              containerClass="bg-yellow-300  flex-center gap-1"
+            
             />
           </div>
         </div>
@@ -79,8 +81,9 @@ const Hero = () => {
     {/* <SmoothScrollHero/> */}
     {/* <HorizontalCards /> */}
     {/* <CardSwiper /> */}
-    <Gallery/>
-    
+    {/* <CardFlip/> */}
+    {/* <Gallery/> */}
+    {/* <Contact/> */}
     {/* <Example /> */}
     
     </>

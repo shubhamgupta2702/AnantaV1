@@ -7,7 +7,7 @@ import { TiLocationArrow } from "react-icons/ti";
 // import Button from "./Button.jsx";
 import { Menu, X } from "lucide-react";
 
-// const navItems = ["About", "Events", "Register", "Sponsors", "Contact"];
+
 
 const NavBar = () => {
 

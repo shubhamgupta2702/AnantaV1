@@ -6,6 +6,8 @@ import Layout from './Layout.jsx'
 
 import Hero from './components/Hero.jsx'
 import Technologies from './components/Technologies.jsx'
+import AboutonClick from './components/AboutonClick.jsx'
+import CardFlip from './components/CardFlip.jsx'
 
 
 const router = createBrowserRouter([
@@ -16,7 +18,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <Hero/>
-      },
+      },{
+        path: "about",
+        element: <AboutonClick />
+      }
       
       
     ]

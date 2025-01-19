@@ -6,6 +6,7 @@ import { TiLocationArrow } from "react-icons/ti";
 
 // import Button from "./Button.jsx";
 import { Menu, X } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -87,13 +88,13 @@ const NavBar = () => {
           <div className="flex flex-wrap h-full items-center">
             <div className=" md:flex">
               
-                <a
+                <NavLink
+                  to="about"
                   
-                  href="https://ananta2025.netlify.app/"
                   className="nav-hover-btn"
                 >
                   About
-                </a>
+                </NavLink>
                 <a
                   
                   href="/"

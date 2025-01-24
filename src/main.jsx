@@ -9,6 +9,8 @@ import Technologies from './components/Technologies.jsx'
 import AboutonClick from './components/AboutonClick.jsx'
 import CardFlip from './components/CardFlip.jsx'
 
+import CoreTeamV1 from './components/CoreTeamV1.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
       },{
         path: "about",
         element: <AboutonClick />
+      },
+      {
+        path: "team",
+        element: <CoreTeamV1/>
       }
       
       

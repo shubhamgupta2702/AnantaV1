@@ -46,7 +46,7 @@ function AboutonClick() {
 					</div>
 				</div>
 </section>
-<hr />
+
 <AboutFeatures />
     </>
   )

@@ -4,14 +4,14 @@ import { FiArrowUpRight } from "react-icons/fi";
 function Cardcolor() {
   return (
     <>
-      <div className="min-h-screen w-full  flex flex-col justify-center relative overflow-hidden sm:py-12">
+      <div className="min-h-screen w-full  flex flex-col justify-center relative overflow-hidden sm:py-7">
   <div className="max-w-7xl mx-auto">
     <div className="relative group">
       <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative px-7 py-6 bg-black ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
       
         <div className="col-span-1 md:col-span-8">
-          <h1 className='mb-5 text-2xl font-extrabold text-indigo-400 md:text-2xl text-center font-circular-web'>Ananta Tech Fest - 2025</h1>
+          <h1 className='mb-5 text-2xl drop-shadow-[0px_0px_25px_rgba(255,5,188,1)] font-extrabold text-indigo-400 md:text-2xl text-center font-circular-web'>Ananta Tech Fest - 2025</h1>
               <p className="mb-4 text-xl text-white md:text-2xl font-robert-regular">
               Welcome to Ananta 2025, the annual technical fest hosted by Hemvati Nandan Bahuguna Garhwal University, where innovation meets creativity, and technology knows no bounds! Get ready for a thrilling journey through the world of science, engineering, and cutting-edge technology. 
               </p>

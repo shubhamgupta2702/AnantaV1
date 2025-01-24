@@ -3,12 +3,12 @@ import React from 'react'
 function AboutFeatures() {
   return (
     <>
-      <div className="bg-gradient-to-b from-indigo-900 to-gray-900 py-24 sm:py-32">
+      <div className="bg-gradient-to-b from-indigo-900 to-gray-900 py-24 sm:py-32 mx-0">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-4">
         <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-          <img className="absolute inset-0 h-full w-full object-cover brightness-200 " src="/img/quiz.png" alt=""/>
+          <img className="absolute inset-0 h-full w-full object-cover brightness-200 " src="/img/event.png" alt=""/>
           <div className="absolute inset-0  mix-blend-multiply"></div>
           <div className="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl" aria-hidden="true">
             <div className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-0" ></div>

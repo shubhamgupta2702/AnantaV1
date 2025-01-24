@@ -95,13 +95,7 @@ const NavBar = () => {
                 >
                   About
                 </NavLink>
-                <a
-                  
-                  href="/"
-                  className="nav-hover-btn"
-                >
-                  Events
-                </a>
+                
                 <a
                   
                   href="/"
@@ -116,6 +110,14 @@ const NavBar = () => {
                 >
                   Register
                 </a>
+                <NavLink
+                  
+                  to="team"
+                  className="nav-hover-btn"
+                >
+                  Team
+                </NavLink>
+                
                 <a
                   
                   href="/"

@@ -10,6 +10,7 @@ import AboutonClick from './components/AboutonClick.jsx'
 import CardFlip from './components/CardFlip.jsx'
 
 import CoreTeamV1 from './components/CoreTeamV1.jsx'
+import Games from './components/GameCard/Games.jsx'
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,13 @@ const router = createBrowserRouter([
       {
         path: "team",
         element: <CoreTeamV1/>
+      },
+      {
+        path:"events",
+        element: <Games />
+      },{
+        path:"eventpage",
+        element:<Games/>
       }
       
       

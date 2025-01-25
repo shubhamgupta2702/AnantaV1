@@ -96,13 +96,13 @@ const NavBar = () => {
                   About
                 </NavLink>
                 
-                <a
+                <NavLink
                   
-                  href="/"
+                  to="events"
                   className="nav-hover-btn"
                 >
-                  Sponsors
-                </a>
+                  Events
+                </NavLink>
                 <a
                   
                   href="/"

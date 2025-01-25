@@ -4,11 +4,14 @@ import { FiArrowUpRight } from "react-icons/fi";
 import Cardcolor from "./Cardcolor";
 import CardFlip from "./CardFlip";
 import CardFlip2 from "./CardFlip2";
+import Games from "./GameCard/Games.jsx";
+import GamesonMain from "./GamesonMain.jsx";
+import { ButtononMain } from "./GameCard/Button.jsx";
 
 
 export const TextParallaxContentExample = () => {
   return (
-    <div className="bg-gradient-to-b from-indigo-900 to-gray-900 pt-0">
+    <div className=" bg-gray-900 pt-0">
       
       <TextParallaxContent
         imgUrl="/img/anantafestlogo.png"
@@ -17,8 +20,9 @@ export const TextParallaxContentExample = () => {
         
       >
         <ExampleContent />
-        <CardFlip />
-        <CardFlip2/>
+        <GamesonMain/>
+        <div className="text-center items-center justify-center place-content-center mt-20 pb-20">
+        <ButtononMain/></div>
       </TextParallaxContent>
       
     </div>

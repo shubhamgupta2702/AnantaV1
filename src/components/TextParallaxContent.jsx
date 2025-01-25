@@ -4,7 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import Cardcolor from "./Cardcolor";
 import CardFlip from "./CardFlip";
 import CardFlip2 from "./CardFlip2";
-import Games from "./GameCard/Games.jsx";
+import Games from "./Games.jsx";
 import GamesonMain from "./GamesonMain.jsx";
 import { ButtononMain } from "./Button2.jsx";
 

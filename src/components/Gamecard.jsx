@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { variant1 } from "./motion.js"
-import Button from "../Button2.jsx"
+import Button from "./Button2.jsx"
 const GameCard = ({ delay, img, bg_img, card_h1, card_type, card_p, button, key }) => {
   return (
     <motion.div key={key} variants={variant1(delay)} initial='hidden' whileInView='show' className=" text-center relative rounded-2xl w-full md:w-[30%] basis shrink-0 grow bg-gray-900 bg-opacity-50 p-5 border border-teal-400">

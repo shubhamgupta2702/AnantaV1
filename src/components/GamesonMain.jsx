@@ -1,6 +1,6 @@
 import React from 'react'
-import { gamesData, gamesData2, gamesData3, gamesData4 } from "./GameCard/dumy.js"
-import GameCard from "./GameCard/Gamecard.jsx"
+import { gamesData, gamesData2, gamesData3, gamesData4 } from "./dumy.js"
+import GameCard from "./Gamecard.jsx"
 
 function GamesonMain() {
   return (

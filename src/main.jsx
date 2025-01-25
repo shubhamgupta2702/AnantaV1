@@ -10,7 +10,7 @@ import AboutonClick from './components/AboutonClick.jsx'
 import CardFlip from './components/CardFlip.jsx'
 
 import CoreTeamV1 from './components/CoreTeamV1.jsx'
-import Games from './components/GameCard/Games.jsx'
+import Games from './components/Games.jsx'
 
 
 const router = createBrowserRouter([

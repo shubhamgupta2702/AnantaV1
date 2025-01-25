@@ -6,7 +6,7 @@ import CardFlip from "./CardFlip";
 import CardFlip2 from "./CardFlip2";
 import Games from "./GameCard/Games.jsx";
 import GamesonMain from "./GamesonMain.jsx";
-import { ButtononMain } from "./GameCard/Button.jsx";
+import { ButtononMain } from "./Button2.jsx";
 
 
 export const TextParallaxContentExample = () => {

@@ -50,7 +50,7 @@ function AboutFeatures() {
             <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white"></dd>
           </div>
         </dl>
-        <div className="mt-10 flex">
+        <div className="mt-10 flex ">
           <a href="#" className="text-base font-semibold leading-7 text-yellow-500">Register <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>

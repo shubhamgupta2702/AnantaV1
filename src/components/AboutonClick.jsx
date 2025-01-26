@@ -31,7 +31,7 @@ function AboutonClick() {
             
             /></div>
 			</div>
-			<div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+			<div className="p-8 mt-12 mb-0 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
 				<div className="h-48 flex flex-wrap content-center">
 					<div>
 						{/* <img className="inline-block mt-28 xl:block" src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png"/> */}

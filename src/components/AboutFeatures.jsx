@@ -1,9 +1,10 @@
 import React from 'react'
+import Footer from './Footer.jsx'
 
 function AboutFeatures() {
   return (
     <>
-      <div className="bg-gradient-to-b from-indigo-900 to-gray-900 py-24 sm:py-32 mx-0">
+      <div className="bg-[url(/img/planet-02.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat  py-24 sm:py-32 mx-0">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-4">
@@ -55,6 +56,9 @@ function AboutFeatures() {
       </div>
     </div>
   </div>
+</div>
+<div className='bg-[url(/img/planet-02.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0'>
+<Footer/>
 </div>
     </>
   )

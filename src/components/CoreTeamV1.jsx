@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from './Footer.jsx'
+import Social from './Social.jsx'
 
 function CoreTeamV1() {
   return (
     <>
-      <div className="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
+    <Social/>
+      <div className="relative overflow-hidden bg-[url(/img/planet-09.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat  pt-32 pb-32 space-y-24">
     <div className="relative">
         <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
@@ -177,6 +180,9 @@ function CoreTeamV1() {
             </div>
         </div>
     </div>
+</div>
+<div className='bg-[url(/img/planet-09.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0'>
+<Footer/>
 </div>
     </>
   )

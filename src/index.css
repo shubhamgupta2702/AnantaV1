@@ -285,7 +285,7 @@ body {
 }
 
 /* Footer CSS */
-.bg-layers {
+/* .bg-layers {
   -webkit-animation: filter-animation 4s infinite;
   animation: filter-animation 4s infinite;
 }
@@ -330,4 +330,4 @@ body {
   100% {
       transform:scale(.8);
   }
-}
+} */

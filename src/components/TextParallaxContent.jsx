@@ -5,16 +5,17 @@ import Cardcolor from "./Cardcolor";
 import CardFlip from "./CardFlip";
 import CardFlip2 from "./CardFlip2";
 import Games from "./Games.jsx";
+import Footer from './Footer.jsx'
 import GamesonMain from "./GamesonMain.jsx";
 import { ButtononMain } from "./Button2.jsx";
 
 
 export const TextParallaxContentExample = () => {
   return (
-    <div className=" bg-gray-900 pt-0">
+    <div className="bg-[url(/img/cover.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0">
       
       <TextParallaxContent
-        imgUrl="/img/anantafestlogo.png"
+        imgUrl="/img/cover.png"
         subheading=""
         heading="WELCOME TO ANANTA 2025"
         
@@ -23,6 +24,7 @@ export const TextParallaxContentExample = () => {
         <GamesonMain/>
         <div className="text-center items-center justify-center place-content-center mt-20 pb-20">
         <ButtononMain/></div>
+        <Footer/>
       </TextParallaxContent>
       
     </div>

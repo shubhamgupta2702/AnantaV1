@@ -7,7 +7,7 @@ const Games = () => {
   return (
     <>
     <Social/>
-    <div className=" bg-[url(/img/planet-06.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat scroll-smooth snap-y">
+    <div className=" bg-[url(/img/planet-06.png)] sm:bg-[url(/img/planet-06.png)] md:bg-[url(/img/planet-06.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat scroll-smooth snap-y">
     <div className="animate-slide backdrop-blur-md bg-cover h-full top-0 left-0 right-0 bottom-0">
     
     <div className="max-w-[1440px] w-full mx-auto p-5">
@@ -41,11 +41,10 @@ const Games = () => {
         }
       </div>
       </div>
-      </div>
-      </div>
-      <div className='backdrop-blur-md bg-[url(/img/planet-06.png)]  bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0'>
       <Footer/>
       </div>
+      </div>
+      
       
     </>
   )

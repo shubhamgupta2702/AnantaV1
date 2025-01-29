@@ -12,19 +12,22 @@ import { ButtononMain } from "./Button2.jsx";
 
 export const TextParallaxContentExample = () => {
   return (
-    <div className="bg-[url(/img/cover.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0">
+    <div className="bg-[url(/img/cover.png)]  bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0">
       
       <TextParallaxContent
         imgUrl="/img/cover.png"
         subheading=""
         heading="WELCOME TO ANANTA 2025"
+        className="backdrop-blur-md"
         
       >
+        <div className="backdrop-blur-md">
         <ExampleContent />
         <GamesonMain/>
-        <div className="text-center items-center justify-center place-content-center mt-20 pb-20">
-        <ButtononMain/></div>
+        <ButtononMain/>
         <Footer/>
+        </div>
+        
       </TextParallaxContent>
       
     </div>
@@ -41,7 +44,7 @@ const TextParallaxContent = ({ imgUrl, subheading, heading, children }) => {
         paddingRight: IMG_PADDING,
       }}
     >
-      <div className="relative h-[150vh]">
+      <div className="relative h-[150vh] backdrop-blur-md">
         <StickyImage imgUrl={imgUrl} />
         <OverlayCopy heading={heading} subheading={subheading} />
       </div>

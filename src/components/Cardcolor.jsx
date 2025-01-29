@@ -5,7 +5,7 @@ function Cardcolor() {
   return (
     <>
       
-<div class="flex flex-col items-center  md:flex-row md:max-w-screen-[1500px] px-7 py-4 md:px-20 md:py-20">
+<div class="flex flex-col items-center   md:flex-row md:max-w-screen-[1500px] px-7 py-4 md:px-20 md:py-20">
     <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg" src="/img/get-started.png" alt=""/>
     <div class="flex flex-col justify-between p-4 leading-normal">
         <h5 class="mb-2 text-6xl md:text-7xl font-bold tracking-tight text-white">Ananta Fest - 2025</h5>

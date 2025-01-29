@@ -45,14 +45,14 @@ const Hero = () => {
             autoPlay
             loop
             muted
-            className="absolute left-0 top-0 size-full object-fill object-center"
+            className="absolute  left-0 top-0 size-full object-fill object-center"
             
           />
         </div>
 
         
 
-        <div className="absolute left-0 top-0 z-40 size-full sm:px-10">
+        <div className="absolute left-0 top-0 z-40 size-full sm:px-10 ">
           <div className="mt-56 px-5 sm:px-10">
             <h1 className="ananta-heading font-extrabold uppercase  text-4xl md:text-6xl text-yellow-400">
               Ananta  Fest 2025

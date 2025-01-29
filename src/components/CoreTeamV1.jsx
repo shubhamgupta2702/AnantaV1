@@ -6,8 +6,9 @@ function CoreTeamV1() {
   return (
     <>
     <Social/>
-      <div className="relative overflow-hidden bg-[url(/img/planet-09.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat  pt-32 pb-32 space-y-24">
-    <div className="relative">
+    <div className='backdrop-blur-md'>
+      <div className="relative overflow-hidden  bg-[url(/img/planet-03.png)] sm:bg-[url(/img/planet-03.png)] md:bg-[url(/img/planet-03.png)] bg-opacity-25 bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat  pt-32 pb-32 space-y-24">
+    <div className="relative ">
         <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
             <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
 
@@ -26,11 +27,10 @@ function CoreTeamV1() {
 
                     <div className="mt-6">
                         <h2 className="text-3xl font-bold tracking-tight text-white">
-                            Natural Language Processing (NLP):
+                            Team Member 1 (Role):
                         </h2>
                         <p className="mt-4 text-lg text-gray-300">
-                            The AI product utilizes advanced NLP algorithms to understand and interpret human language,
-                            enabling it to accurately process and analyze text-based inputs.
+                            Description
                         </p>
                         <div className="mt-6">
                             <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
@@ -70,11 +70,10 @@ function CoreTeamV1() {
                     </div>
                     <div className="mt-6">
                         <h2 className="text-3xl font-bold tracking-tight text-white">
-                            Sentiment Analysis:
+                        Team Member 1 (Role)
                         </h2>
                         <p className="mt-4 text-lg text-gray-300">
-                            The product has built-in sentiment analysis capabilities, allowing it to determine the
-                            sentiment (positive, negative, or neutral) expressed in text or customer feedback.
+                            Description
                         </p>
                         <div className="mt-6">
                             <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
@@ -114,11 +113,10 @@ function CoreTeamV1() {
                     </div>
                     <div className="mt-6">
                         <h2 className="text-3xl font-bold tracking-tight text-white">
-                            Natural Language Generation (NLG):
+                        Team Member 1 (Role):
                         </h2>
                         <p className="mt-4 text-lg text-gray-300">
-                            The AI product can generate human-like written content, summaries, or reports based on
-                            structured data or analysis results.
+                            Description
                         </p>
                         <div className="mt-6">
                             <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
@@ -156,11 +154,10 @@ function CoreTeamV1() {
                     </div>
                     <div className="mt-6">
                         <h2 className="text-3xl font-bold tracking-tight text-white">
-                            Sentiment Analysis:
+                        Team Member 1 (Role)
                         </h2>
                         <p className="mt-4 text-lg text-gray-300">
-                            The product has built-in sentiment analysis capabilities, allowing it to determine the
-                            sentiment (positive, negative, or neutral) expressed in text or customer feedback.
+                            Description
                         </p>
                         <div className="mt-6">
                             <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
@@ -181,7 +178,8 @@ function CoreTeamV1() {
         </div>
     </div>
 </div>
-<div className='bg-[url(/img/planet-09.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0'>
+</div>
+<div className='bg-[url(/img/planet-03.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0'>
 <Footer/>
 </div>
     </>

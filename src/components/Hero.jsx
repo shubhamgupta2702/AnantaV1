@@ -19,7 +19,7 @@ import { TextParallaxContentExample } from "./TextParallaxContent.jsx";
 import HorizontalCards from "./HorizontalScrollCard.jsx";
 import CardSwiper from "./CardSwiper.jsx";
 import Cardcolor from "./Cardcolor.jsx";
-import Gallery from "./Gallery.jsx";
+
 import CardFlip from "./CardFlip.jsx";
 
 

@@ -11,6 +11,8 @@ import CardFlip from './components/CardFlip.jsx'
 
 import CoreTeamV1 from './components/CoreTeamV1.jsx'
 import Games from './components/Games.jsx'
+import Gallery from './components/Gallery.jsx'
+
 
 
 const router = createBrowserRouter([
@@ -35,6 +37,9 @@ const router = createBrowserRouter([
       },{
         path:"eventpage",
         element:<Games/>
+      },{
+        path:"gallery",
+        element:<Gallery/>
       }
       
       

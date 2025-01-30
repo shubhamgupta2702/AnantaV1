@@ -17,8 +17,11 @@
     "dist": "^0.1.2",
     "framer-motion": "^11.18.0",
     "gsap": "^3.12.5",
+    "imagesloaded": "^5.0.0",
     "lenis": "^1.1.19",
+    "lightgallery": "^2.8.2",
     "lucide-react": "^0.473.0",
+    "masonry-layout": "^4.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
@@ -41,6 +44,7 @@
     "globals": "^15.11.0",
     "postcss": "^8.4.49",
     "prettier": "^3.3.3",
+    "sass-embedded": "^1.83.4",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.10"
   }

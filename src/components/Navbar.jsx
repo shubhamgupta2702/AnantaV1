@@ -78,11 +78,11 @@ const NavBar = () => {
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4 pl-0 ">
           {/* Logo and Product button */}
-          <div className="flex items-center gap-7">
+          <NavLink to="/" className="flex items-center gap-7">
             <img src="/img/ananta_logo.png" width={180} height={100} alt="logo" className="" />
 
             
-          </div>
+          </NavLink>
 
           
           <div className="flex flex-wrap h-full items-center">
@@ -118,13 +118,13 @@ const NavBar = () => {
                   Team
                 </NavLink>
                 
-                <a
+                <NavLink
                   
-                  href="/"
+                  to="/gallery"
                   className="nav-hover-btn"
                 >
-                  Contact
-                </a>
+                  Gallery
+                </NavLink>
               
             </div>
 

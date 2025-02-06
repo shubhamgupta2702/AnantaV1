@@ -74,7 +74,7 @@ const Navbar = () => {
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4 pl-0 ">
           {/* Logo and Product button */}
-          <NavLink to="/" className="flex items-center gap-7">
+          <NavLink to="/" onClick={() => window.location.href = '/'} className="flex items-center gap-7">
             <img src="/img/ananta_logo.png" width={180} height={100} alt="logo" className="" />
 
             
@@ -107,10 +107,10 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden mt-44  flex flex-col ">
           
-          <NavLink to="about" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
-          <NavLink to="events" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
-          <a href="#" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Register</a>
-          <NavLink to="gallery" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Gallery</NavLink>
+          <NavLink to="about" onClick={() => window.location.href = '/about'}  className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
+          <NavLink to="events" onClick={() => window.location.href = '/events'} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
+          <a href="#" className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Register</a>
+          <NavLink to="gallery" onClick={() => window.location.href = '/gallery'} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Gallery</NavLink>
         </div>
       )}
 

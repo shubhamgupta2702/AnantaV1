@@ -5,16 +5,14 @@ function AboutFeatures() {
   return (
     <>
     
-      <div className="bg-[url(/img/peakpx6.jpg)] md:bg-[url(/img/peakpx4.jpg)] backdrop-blur-md bg-center md:bg-fixed md:bg-cover md:bg-no-repeat  pt-72 sm:pt-12 mx-0">
+      <div className="bg-[url(/img/peakpx6.jpg)] md:bg-[url(/img/peakpx4.jpg)] backdrop-blur-md bg-center md:bg-fixed md:bg-cover md:bg-no-repeat  pt-40 sm:pt-12 mx-0">
   <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
-    <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-0 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-4">
         <div className="relative overflow-hidden rounded-3xl px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
           <img className="absolute inset-0 h-full w-full object-cover brightness-200 " src="/img/event.png" alt=""/>
-          <div className="absolute inset-0  mix-blend-multiply"></div>
-          <div className="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl" aria-hidden="true">
-            <div className="aspect-[1097/845] w-[68.5625rem] " ></div>
-          </div>
+          
+          
           
             <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
               <p>“"What happens is not as important as how you react to what happens." "The journey of a thousand miles begins with one step." "The only true wisdom is in knowing you know nothing." "Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind..”</p>
@@ -33,7 +31,7 @@ function AboutFeatures() {
             
           </div>
         </div>
-        <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
+        <dl className="mt-5 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
           <div>
             <dt className="text-sm font-semibold leading-6 text-white">Events</dt>
             <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white">10+</dd>
@@ -51,8 +49,8 @@ function AboutFeatures() {
             <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-white"></dd>
           </div>
         </dl>
-        <div className="mt-10 flex ">
-          <a href="#" className="text-base font-semibold leading-7 text-yellow-500">Register <span aria-hidden="true">&rarr;</span></a>
+        <div className="mt-4 flex ">
+          <a href="#" className="text-xl font-extrabold leading-7 text-yellow-500">Register <span aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
     </div>
@@ -60,8 +58,7 @@ function AboutFeatures() {
 <Footer/>
 </div>
 
-<div className='bg-[url(/img/planet-09.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0'>
-</div>
+
     </>
   )
 }

@@ -119,7 +119,7 @@ const Navbar = () => {
               
                 <NavLink
                   to="about"
-                  onClick={() => window.location.href = '/about'}
+                  
                   
                   className="nav-hover-btn"
                 >
@@ -127,7 +127,7 @@ const Navbar = () => {
                 </NavLink>
                 
                 <NavLink
-                  onClick={() => window.location.href = '/events'}
+                  
                   to="events"
                   className="nav-hover-btn"
                 >
@@ -141,7 +141,7 @@ const Navbar = () => {
                   Register
                 </a>
                 <NavLink
-                  onClick={() => window.location.href = '/team'}
+               
                   to="team"
                   className="nav-hover-btn"
                 >
@@ -149,7 +149,7 @@ const Navbar = () => {
                 </NavLink>
                 
                 <NavLink
-                  onClick={() => window.location.href = '/gallery'}
+                  
                   to="gallery"
                   className="nav-hover-btn"
                 >

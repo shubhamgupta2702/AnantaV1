@@ -11,11 +11,11 @@ import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsMenuOpen(!isMenuOpen);
   };
 
   const closeMenu = () => {
@@ -104,13 +104,13 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu (collapsible) */}
-      {isOpen && (
+      {isMenuOpen && (
         <div className="md:hidden mt-44  flex flex-col ">
           
-          <NavLink to="about"   className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
-          <NavLink to="events"  className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
-          <a href="#" className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Register</a>
-          <NavLink to="gallery" className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Gallery</NavLink>
+          <NavLink to="about" onClick={closeMenu}  className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
+          <NavLink to="events" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
+          <a href="#" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Register</a>
+          <NavLink to="gallery" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Gallery</NavLink>
         </div>
       )}
 

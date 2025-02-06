@@ -80,7 +80,7 @@ const Navbar = () => {
           </NavLink>
 
           {/* Hamburger Menu Button (for mobile) */}
-        <div className="md:hidden fixed float-right">
+        <div className="md:hidden float-right">
           <button
             onClick={toggleMenu}
             className="text-white pl-14 focus:outline-none"

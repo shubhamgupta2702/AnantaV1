@@ -61,7 +61,7 @@ const Hero = () => {
         ="pl-0 text-2xl md:text-4xl text-white leading-relaxed md:leading-snug mb-7">Space : The Timeless Infinity
 				</h2>
 
-            <p className="mb-12 mt-7 max-w-96 text-3xl md:text-2xl font-robert-regular text-blue-100">
+            <p className="mb-12 mt-7 max-w-96 text-2xl md:text-2xl font-robert-regular text-blue-100">
             Ananta fest is a science and technology festival held annually at the Hemvati Nandan Bahuguna Garhwal University<br />
             </p>
 

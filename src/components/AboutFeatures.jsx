@@ -5,7 +5,7 @@ function AboutFeatures() {
   return (
     <>
     
-      <div className="bg-[url(/img/planet-09.png)] backdrop-blur-md bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat  py-24 sm:py-32 mx-0">
+      <div className="bg-[url(/img/peakpx6.jpg)] md:bg-[url(/img/peakpx4.jpg)] backdrop-blur-md bg-center md:bg-fixed md:bg-cover md:bg-no-repeat  pt-72 sm:pt-12 mx-0">
   <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
     <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="lg:pr-4">
@@ -57,10 +57,10 @@ function AboutFeatures() {
       </div>
     </div>
   </div>
+<Footer/>
 </div>
 
 <div className='bg-[url(/img/planet-09.png)] bg-fixed md:bg-fixed md:bg-cover md:bg-no-repeat pt-0'>
-<Footer/>
 </div>
     </>
   )

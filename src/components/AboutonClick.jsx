@@ -13,7 +13,7 @@ function AboutonClick() {
 		alt="" />
       <section className="relative h-screen overflow-hidden flex items-center justify-center ">
 	<div className=" text-white py-20">
-		<div className="container mx-auto flex flex-col md:flex-row items-center my-0 md:my-24">
+		<div className="container mx-auto flex flex-col md:flex-row items-center mt-32 md:my-24">
 			<div classNamee="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
 				<h1 className="text-3xl md:text-5xl pl-7 pb-3 text-yellow-300 tracking-loose font-serif font-bold">Ananta Fest</h1>
 				<h2 className

@@ -8,7 +8,7 @@ import { FaSquareXTwitter, FaThreads, FaX } from 'react-icons/fa6'
 function Footer() {
   return (
     <>
-     <footer className="relative   flex flex-col items-center  overflow-hidden pt-3 md:pt-5 md:pb-0">
+     <footer className="relative  backdrop-blur-md  flex flex-col items-center  overflow-hidden pt-3 md:pt-5 mt-7 md:mt-12 md:pb-0">
     <div className="relative z-[1] container  px-6 md:px-12">
         <div className="m-auto mb-0 pb-7 md:w-10/12 lg:w-8/12 xl:w-6/12">
             <div className="flex flex-wrap items-center justify-between md:flex-nowrap">

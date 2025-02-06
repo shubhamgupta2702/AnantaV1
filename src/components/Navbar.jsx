@@ -80,7 +80,7 @@ const Navbar = () => {
           </NavLink>
 
           {/* Hamburger Menu Button (for mobile) */}
-        <div className="md:hidden float-right">
+        <div className="md:hidden fixed float-right">
           <button
             onClick={toggleMenu}
             className="text-white pl-14 focus:outline-none"
@@ -106,10 +106,10 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden mt-44  flex flex-col ">
           
-          <NavLink to="/about" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
-          <NavLink to="/events" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
+          <NavLink to="about" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
+          <NavLink to="events" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
           <a href="#" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Register</a>
-          <NavLink to="/gallery" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Gallery</NavLink>
+          <NavLink to="gallery" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Gallery</NavLink>
         </div>
       )}
 

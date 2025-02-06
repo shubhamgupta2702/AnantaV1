@@ -106,8 +106,8 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden mt-44  flex flex-col ">
           
-          <NavLink to="about" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
-          <NavLink to="events" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
+          <NavLink to="/about" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">About</NavLink>
+          <NavLink to="/events" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Events</NavLink> 
           <a href="#" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Register</a>
           <NavLink to="/gallery" onClick={closeMenu} className="block nav-hover-btn text-white py-2 hover:bg-gray-700">Gallery</NavLink>
         </div>

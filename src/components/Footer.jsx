@@ -10,7 +10,7 @@ function Footer() {
     <>
      <footer className="relative  backdrop-blur-md  flex flex-col items-center  overflow-hidden pt-3 md:pt-5 mt-7 md:mt-12 md:pb-0">
     <div className="relative z-[1] container  px-6 md:px-12">
-        <div className="m-auto mb-0 md:pb-7 pb-9 md:w-10/12 lg:w-8/12 xl:w-6/12">
+        <div className="m-auto mb-0 md:pb-7 pb-16 md:w-10/12 lg:w-8/12 xl:w-6/12">
             <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
                 <div className="w-full space-x-12 flex justify-center font-semibold text-white sm:w-7/12 md:justify-start">
                     <ul className=" space-y-8">

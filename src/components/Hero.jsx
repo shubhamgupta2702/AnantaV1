@@ -45,7 +45,7 @@ const Hero = () => {
             autoPlay
             loop
             muted
-            className="absolute  left-0 top-0 size-full object-fill object-center"
+            className="absolute saturate-100 left-0 top-0 size-full object-fill object-center"
             
           />
         </div>

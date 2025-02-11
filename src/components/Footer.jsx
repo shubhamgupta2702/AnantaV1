@@ -72,7 +72,7 @@ function Footer() {
     </div>
     
     
-    <div  className="absolute inset-0 mb-0 w-full h-full bg-transparent "></div>
+    <div  className="absolute inset-0 mb-0 w-full h-full bg-transparent ">MADE BY - SHUBHAM</div>
 </footer>
       
     </>

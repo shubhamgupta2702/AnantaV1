@@ -65,6 +65,7 @@ function Footer() {
                     </span>
 
                     <span className="block text-white">Need help? <a href="#" className="font-semibold text-white"> Contact Us</a></span>
+                    <span className='block text-white'>Made by- <span className="font-semibold"> Shubham Gupta</span></span>
                 </div>
             </div>
         </div>
